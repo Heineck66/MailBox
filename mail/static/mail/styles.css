@@ -1,0 +1,99 @@
+body {
+    background: #292D3E;
+    color: #93CCD6;
+}
+
+textarea {
+    min-height: 400px;
+}
+
+/* Login area */
+
+.login-box {
+    text-align: center;
+    max-width: 60%;
+    min-width: 40%;
+    max-height: 60%;
+    margin: 10rem auto;
+    border: 1px solid #393F56;
+    background-color: #bcc0dd;
+    padding: 2rem;
+    color: #1B1E2B;
+}
+
+.register {
+    position: relative;
+    top: 20px;
+}
+
+/* Mail Box */
+
+.email {
+    border: rgb(91, 94, 141) solid 1px;
+    background: #1B1E2B;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    width: 88%;
+}
+
+#email_box {
+    display: flex;
+}
+
+
+.email_read {
+    border: gray solid 1px;
+    background: #36383fb9;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+}
+
+.email_read:hover {
+    background-color: #42444d;
+}
+
+.email:hover  {
+    background-color: #31333b;
+}
+
+.email_date {
+    text-align: right;
+    color: #789da3;
+    margin-left: auto;
+}
+
+.email-content__body {
+    border:#93CCD6 solid 2px;
+    padding: 10px 15px 10px 5px;
+    margin: 0px 0px 20px 0px;
+    background-color: #2f3449;
+}
+
+#message {
+    margin: 15px;
+}
+
+.email-content__head {
+    border:#93CCD6 solid 2px;
+    padding: 10px 15px 10px 5px;
+    background-color: #2f3449;
+}
+
+#subject {
+    border:#93CCD6 solid 2px;
+    background-color:  #1c4850;
+    padding: 10px 15px 10px 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.email-bnt {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
